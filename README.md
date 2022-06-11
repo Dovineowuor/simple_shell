@@ -4,7 +4,7 @@ The project was Built by a collaboration of
 
 <li>
 <ol>
-Dovine K Owuor (Eng. Dove Ke) and 
+Dovine K Owuor (Eng. Dove Ke) and Oke Olatunji
     
 
 

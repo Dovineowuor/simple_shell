@@ -1,12 +1,14 @@
 ## Simple Shell Project
-** This repository showcases my simple shell project.
+*** This repository showcases my simple shell project.
 The project was Built by a collaboration of 
 
 <li>
 <ol>
-Dovine K Owuor (Eng. Dove Ke) and 
-    
+Dovine K Owuor (Eng. Dove Ke) 
 
+and 
+    
+Oke Oletunji
 
 </ol>
 </li>

@@ -1,19 +1,51 @@
-## Simple Shell Project
-*** This repository showcases my simple shell project.
-The project was Built by a collaboration of 
+#                            Simple Shell Project 
 
-<li>
-<ol>
-<<<<<<< HEAD
-Dovine K Owuor (Eng. Dove Ke) 
-=======
-Dovine K Owuor (Eng. Dove Ke) and Oke Olatunji
-    
->>>>>>> 45865427e55ac0d252f33886afe4eb11b891d84b
+# Simple Shell 
+###                           Language Used: C
+###                          1. Participants:Dovine Owuor and,
+#                            2. Oke Oletunji
 
-and 
-    
-Oke Oletunji
 
-</ol>
-</li>
+### Description
+
+This is a simple UNIX command interpreter that replicates functionalities of the simple shell (sh). Additional functions are also included. This program is written entirely in C as a milestone project under the  ALX Africa Software Engineering Programme, 2022.
+
+### Installation
+
+Clone this repository into your working directory. For best results, files should be compiled with GCC and the following flags: -Wall -Wextra -Werror -pedantic -std=gnu89
+
+### Usage
+
+After compilation, the resulting program can run stand-alone, either in interactive or non-interactive mode.
+
+#### Interactive Mode
+
+In interactive mode, simply run the program and wait for the prompt to appear. From there, you can type commands freely, exiting with either the "exit" command or ctrl-D.
+
+#### Non-Interactive Mode
+
+In non-interactive mode, echo your desired command and pipe it into the program like this:
+
+```sh
+echo "ls" | ./shell
+```
+
+In non-interactive mode, the program will exit after finishing your desired command(s).
+
+#### Included Built-Ins
+
+Our shell has support for the following built-in commands:
+
+| Command             | Definition                                                                                |
+| ------------------- | ----------------------------------------------------------------------------------------- |
+| exit [n]            | Exit the shell, with an optional exit status, n.                                          |
+| env                 | Print the environment.                                                                    |
+| setenv [var][value] | Set an environment variable and value. If the variable exists, the value will be updated. |
+| unsetenv [var]      | Remove an environment variable.                                                           |
+| cd [dir]            | Change the directory.                                                                     |
+| help [built-in]     | Read documentation for a built-in.                                                        |
+
+
+### Credits
+
+Code written by [Dovine Owuor](https://www.github.com/Dovineowuor) and [Oke Oletunji](https://www.github.com/Bestboontech).

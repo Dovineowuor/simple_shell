@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# Simple Shell // Written in C // Dovine Owuor and Oke Oletunji
-
-
-### Description
-
 =======
 #                            Simple Shell Project 
 

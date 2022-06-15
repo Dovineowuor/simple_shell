@@ -1,4 +1,4 @@
 # This file lists all contributors to this repository
-[Dovine Owuor] (owuordove@gmail.com) / (owuordovine@gmail.com)
-[Oke Oletunji] (........@gmail.com)
+1. [Dovine Owuor] (owuordove@gmail.com) / (owuordovine@gmail.com)<br>
+2. [Oke Oletunji] (........@gmail.com)
 

@@ -9,7 +9,6 @@
 
 ### Description
 
->>>>>>> d270c67db23f6c57af6b1a31a9513f8ee55e2261
 This is a simple UNIX command interpreter that replicates functionalities of the simple shell (sh). Additional functions are also included. This program is written entirely in C as a milestone project under the  ALX Africa Software Engineering Programme, 2022.
 
 ### Installation
@@ -49,9 +48,5 @@ Our shell has support for the following built-in commands:
 
 
 ### Credits
-
-<<<<<<< HEAD
-Code written by [Dovine Owuor]([https://www.github.com/Dovineowuor]) and [Oke Oletunji]([https://www.github.com/Bestboontech]).
-=======
-Code written by [Dovine Owuor](https://www.github.com/Dovineowuor) and [Oke Oletunji](https://www.github.com/Bestboontech).
->>>>>>> d270c67db23f6c57af6b1a31a9513f8ee55e2261
+HEAD
+Code written by [Dovine Owuor]([https://www.github.com/Dovineowuor]) and <br> [Oke Oletunji]([https://www.github.com/Bestboontech]).

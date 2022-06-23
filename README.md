@@ -15,7 +15,11 @@ The objective of this project is to create from scratch a simple UNIX command in
 * How to execute another program with the ```execve``` system call.
 * How to suspend the execution of a process until one of its children terminates.
 
+<<<<<<< HEAD
 ## Technologies & Tools:computer:
+=======
+This is a simple UNIX command interpreter that replicates functionalities of the simple shell (sh). Additional functions are also included. This program is written entirely in C as a milestone project under the  ALX Africa Software Engineering Programme, 2022.
+>>>>>>> e26564e8f3670ce52cbad8e673dbdfcefb5369ba
 
 ![Ubuntu](https://img.shields.io/badge/≡-Ubuntu-E95420?&style=flat-square&logo=Ubuntu&labelColor=282828)
 ![Git](https://img.shields.io/badge/≡-Git-F05032?logo=git&style=flat-square&labelColor=282828)
@@ -69,3 +73,9 @@ Create a new branch with the name of your feature or fix and make a pull request
 [<img src="https://img.shields.io/badge/Linkedin-0A66C2.svg?&style=plastic&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/Dovine-Owuor)
 [<img src="https://img.shields.io/badge/GitHub-181717.svg?&style=plastic&logo=github&logoColor=white"/>](https://github.com/Dovineowuor)
 
+<<<<<<< HEAD
+=======
+### Credits
+HEAD
+Code written by [Dovine Owuor]([https://www.github.com/Dovineowuor]) and <br> [Oke Oletunji]([https://www.github.com/Bestboontech]).
+>>>>>>> e26564e8f3670ce52cbad8e673dbdfcefb5369ba

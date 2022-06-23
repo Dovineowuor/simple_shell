@@ -76,6 +76,7 @@ Create a new branch with the name of your feature or fix and make a pull request
 
 =======
 ### Credits
-HEAD
-Code written by [Dovine Owuor]([https://www.github.com/Dovineowuor]) and <br> [Oke Oletunji]([https://www.github.com/Bestboontech]).
+
+Code written by;
+1. [Dovine Owuor]([https://www.github.com/Dovineowuor]) and <br> 2.  [Oke Oletunji]([https://www.github.com/Bestboontech]).
 

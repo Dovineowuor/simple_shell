@@ -17,7 +17,7 @@ The objective of this project is to create from scratch a simple UNIX command in
 
      
 ## Technologies & Tools:computer:
-=======
+=======<br>
 This is a simple UNIX command interpreter that replicates functionalities of the simple shell (sh). Additional functions are also included. This program is written entirely in C as a milestone project under the  ALX Africa Software Engineering Programme, 2022.
 
 

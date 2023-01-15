@@ -1,31 +1,28 @@
-#include "main.h"
+#include "alx.h"
 
 /**
- * execute - execute the commands
- * @parse: is a char array of pointers
- * Return: Always 0.
- */
+  *ext- Verify and execute every command
+  *@commands: command entered
+  *@buf: commands buffer.
+  *@env: enviroment variables
+  *@argv: argument counter
+  *@counter: execution counter.
+  *
+  *Return: (void)
+  */
 
-int execute(char **parse)
+void ext(char **commands, char *buf, char **env, char **argv, int counter)
 {
-	pid_t pid;
-	int status;
+	struct stat f1Stat;
 
-	pid = fork();
-	if (pid == 0)
-	{
-		if (execve(parse[0], parse, NULL) == -1)
-		{
-			perror(parse[0]);
-			exit(1);
-		}
-	}
-	else if (pid > 0)
-	{
-		wait(&status);
-	}
+	if (commands == NULL)
+		freebuf(buf);
+	else if (_strcmp("exit", commands[0]))
+		prnt(buf, commands);
+	else if (_strcmp("env", commands[0]))
+		freebufend(buf, commands, env);
+	else if (stat(commands[0], &f1Stat) == 0)
+		execve(commands[0], commands, NULL);
 	else
-		perror("Error:");
-
-	return (0);
+		_path(commands, buf, env, argv, counter);
 }
